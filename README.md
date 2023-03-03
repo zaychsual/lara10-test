@@ -27,8 +27,8 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - mysql
 
 ## Langkah Instalasi
-- inisiasi konfigurasi db di file .env
 - jalankan git clone
+- inisiasi konfigurasi db di file .env
 - jalankan composer install
 - jalankan composer dump-autoload
 - jalankan php artisan migrate
