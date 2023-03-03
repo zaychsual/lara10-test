@@ -35,3 +35,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - jalankan php artisan passport:install
 - jalankan php artisan passport:client --personal
 - jalankan php artisan db:seed untuk mengisi database dummy
+
+## API Documentation
+api dokumentasi berupa pdf ada di root namanya DOCUMENTATION TEST.pdf
