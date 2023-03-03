@@ -69,9 +69,7 @@ class LogOrder extends Model
     {
         parent::boot();
         static::creating(function ($model) {
-            $user = auth()->guard('api_customer')->user();
             $model->id = Generator::uuid4()->toString();
-            $model->customer_id = $user->id;
             $model->created_at = Carbon::now();
             $model->updated_at = Carbon::now();
         });

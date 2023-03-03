@@ -74,6 +74,7 @@ class OrderController extends Controller
                 ]);
 
                 $log = LogOrder::create([
+                    'customer_id' => $main->customer_id,
                     'order_id' => $main->id,
                     'order_detail_id' => $dt->id,
                     'product_id' => $value['product_id'],
@@ -154,6 +155,7 @@ class OrderController extends Controller
                 ]);
 
                 $log = LogOrder::create([
+                    'customer_id' => $main->customer_id,
                     'order_id' => $main->id,
                     'order_detail_id' => $dt->id,
                     'product_id' => $value['product_id'],
@@ -191,6 +193,7 @@ class OrderController extends Controller
                 $details = OrderDetail::where('order_id', $id)->get();
                 foreach($details as $keys => $dt) {
                     $log = LogOrder::create([
+                        'customer_id' => $app->customer_id,
                         'order_id' => $app->id,
                         'order_detail_id' => $dt->id,
                         'product_id' => $dt->product_id,
