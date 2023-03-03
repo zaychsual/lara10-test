@@ -38,3 +38,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## API Documentation
 api dokumentasi berupa pdf ada di root namanya DOCUMENTATION TEST.pdf
+
+## JSON Postman
+file ini bisa di cek pada root namanya LAra10.postman_collection.json
